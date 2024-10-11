@@ -57,3 +57,27 @@ __version__ = '0.1.0'
 __author__ = 'Adolfo Gómez'
 __email__ = 'dkmaster at dkmon dot com'
 __license__ = 'BSD-3-Clause'
+
+from parted import alignment
+from parted import constraint
+from parted import device
+from parted import disk
+from parted import exceptions
+from parted import excpt
+from parted import filesys
+from parted import geom
+from parted import timer
+from parted import util
+
+__all__ = [
+    'alignment',
+    'constraint',
+    'device',
+    'disk',
+    'exceptions',
+    'excpt',
+    'filesys',
+    'geom',
+    'timer',
+    'util',
+]
